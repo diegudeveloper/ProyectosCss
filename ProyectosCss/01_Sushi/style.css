@@ -24,12 +24,14 @@ body {
     align-items: center;
     gap: 0.5rem;
     overflow: hidden;
-    /* margin-top: 90rem; */
+    background-color: #EAA855;
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
 }
 
 .card {
     height: 175px;
-    background-color: cadetblue;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -44,6 +46,8 @@ body {
     border: 2px solid #000;
     border-radius: 50%;
     overflow: hidden;
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
 }
 
 .aguacate {
@@ -51,6 +55,7 @@ body {
     height: 55%;
     background-color: green;
 }
+
 .carrot {
     width: 70%;
     height: 50%;
