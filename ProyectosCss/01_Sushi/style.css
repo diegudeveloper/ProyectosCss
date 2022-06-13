@@ -56,6 +56,10 @@ body {
     background-color: green;
 }
 
+.sushi:nth-child(3) {
+    background-color: pink;
+} 
+
 .carrot {
     width: 70%;
     height: 50%;
