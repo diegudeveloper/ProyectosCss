@@ -15,7 +15,7 @@ body {
 .cards {
     width: 100%;
     height: auto;
-    max-width: 1200px;
+    max-width: 1020px;
     margin: 0 auto;
     border: 1px solid #000;
     display: grid;
@@ -36,6 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sushi {
@@ -56,13 +57,166 @@ body {
     background-color: green;
 }
 
-.sushi:nth-child(3) {
+.aguacate1 {
+    transform: rotate(60deg);
+}
+
+.sushi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salmon {
+    width: 50%;
+    height: 50%;
     background-color: pink;
-} 
+    transform: rotate(30deg);
+}
 
 .carrot {
-    width: 70%;
+    width: 50%;
     height: 50%;
     background-color: orange;
+    /* transform: rotate(30deg); */
 }
+
+.sauce {
+    top: 140px;
+    left: 240px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+.teriyaki {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.9;
+  
+    -webkit-box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+    box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+}
+
+.teriyaki2 {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #330000;
+    opacity: 0.9;
+  
+    -webkit-box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+    box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+}
+.teriyaki3 {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: burlywood;
+    opacity: 0.9;
+  
+    -webkit-box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+    box-shadow: -7px -5px 12px 5px rgba(0, 0, 0, 0.55);
+}
+
+.stick-a {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(45deg);
+    top: 500px;
+    right: 400px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+.stick-b {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(35deg);
+    top: 500px;
+    right: 400px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+.stick-c {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(45deg);
+    top: 500px;
+    right: 150px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+.stick-d {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(35deg);
+    top: 500px;
+    right: 150px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+.stick-e {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(45deg);
+    top: 500px;
+    right: 700px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+.stick-f {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #e8a759;
+    height: 300px;
+    width: 10px;
+    transform: rotate(35deg);
+    top: 500px;
+    right: 700px;
+    border: 1px solid #000;
+    border-radius: 80% 80% 0 0;
+  
+    -webkit-box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
 
