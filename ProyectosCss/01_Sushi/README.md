@@ -36,7 +36,7 @@ Puedes crear una rama y realiza tus commits con cada cambio que realices.
 <br><br>
 ## Implementando el Reto 📥📤
 
-Crea tu propio diseño y solución, también puedes publicarlo en tu github y compártelo en las redes sociales para muchos que comenzamos podamos ver las distintas maneras de realizar este pequeño reto.
+Crea tu propio diseño y solución, también puedes publicarlo en tu github y compártelo en las redes sociales para que podamos ver las distintas maneras de realizar este pequeño reto.
 
 Utiliza el hashtag #RetosPlatziCSS en Twitter para llegar a más personas.
 
@@ -81,7 +81,7 @@ You can create a branch and make your commits with every change you make.
 <br><br>
 ## Implementing the Challenge 📥📤
 
-Create your own design and solution, you can also publish it on your github and share it on social networks so many of us who are just starting out can see the different ways to do this little challenge.
+Create your own design and solution, you can also publish it in your github and share it on social networks so we can see the different ways to do this little challenge.
 
 Use the hashtag #PlatziCSSChallenges on Twitter to reach more people.
 
