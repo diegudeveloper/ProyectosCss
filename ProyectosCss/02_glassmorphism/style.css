@@ -109,6 +109,7 @@ img {
     justify-items: center;
     align-items: center;
     padding: 0 3rem;
+    gap: 1rem 0.5rem;
 }
 
 .containerImgen {
@@ -135,6 +136,8 @@ img {
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 2rem;
 }
 
 .container_Monday, .container_Tusday, .container_Wednesday, .container_Thurday, .container_Friday {
@@ -150,13 +153,14 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 0.7rem;
 }
 
 
 .container_Monday h4, p {
     width: 100%;
     text-align: center;
-    font-size: 0.8rem;
+    
 }
 
 
@@ -184,5 +188,18 @@ img {
     .container {
         width: 100%;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    img {
+        width: 16%;
+    }
+    .containerMuscles {
+        row-gap: 0.3rem;
+    }
+    .containerText {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
     }
 }
