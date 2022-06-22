@@ -110,6 +110,7 @@ img {
     align-items: center;
     padding: 0 3rem;
     gap: 1rem 0.5rem;
+    margin-bottom: 2rem;
 }
 
 .containerImgen {
@@ -201,5 +202,12 @@ img {
     .containerText {
         padding-top: 2rem;
         padding-bottom: 1rem;
+    }
+    .gridTemplate {
+        padding: 0 0;
+        font-size: 0.8rem;
+    }
+    .container_Monday, .container_Tusday, .container_Wednesday, .container_Thurday, .container_Friday {
+        width: 90%;
     }
 }
