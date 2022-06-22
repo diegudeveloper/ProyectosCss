@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #F7CF00;
+    
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMain {
+    width: 700px;
+    height: 620px;
+    border: 2px solid #000;
+    background-color: #fff;
+    transform: rotate(-15deg);
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.containerTitle {
+    width: 100%;
+}
+
+.containerTitle h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.containerText {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem 1rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.containerMainTitle {
+    width: 100%;
+    
+}
+
+.containerMainTitle h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.containerNew {
+    width: 95%;
+    height: 380px;
+    margin: 2rem auto;
+    /* border: 1px solid #000; */
+    display: flex;
+}
+
+.containerfirts { 
+    width: 50%;
+    height: 98%;
+    /* border: 1px solid #000; */
+}
+
+.containerNewText {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.containerSecon {
+    width: 50%;
+}
+
+.containerLorem {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firtSize, .seconstSize {
+    width: 50%;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 425px) {
+    .containerMain {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        transform: rotate(0);
+    }
+    .containerNew {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .containerfirts {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .containerSecon {
+        width: 100%;
+    }
+}
+
+
