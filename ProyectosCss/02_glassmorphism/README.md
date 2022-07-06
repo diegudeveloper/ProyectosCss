@@ -10,7 +10,7 @@
 
 </details><br>
 
-## Bienvenido al reto Css Grid! 👋
+## Bienvenido al reto Planeador semanal Glassmorphism! 👋
 
 Dibujo de una tablita de Sushi con CSS Grid, sin hacer uso de imagenes, este delicioso platillo se desarrolla con etiquetas de HTML y estilos en CSS.<br><br>
 
