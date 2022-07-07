@@ -43,7 +43,7 @@ Utiliza el hashtag #RetosPlatziCSS en Twitter para llegar a más personas.
 </details>
 
 <br><br>
-# Sushi Tablet with CSS Grid
+# Weekly Planner
 
 <details>
     <summary>🗣️ English Version</summary>
@@ -51,13 +51,13 @@ Utiliza el hashtag #RetosPlatziCSS en Twitter para llegar a más personas.
 <details>
     <summary>🖥️ Web design</summary>
 
-![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/62949966/173784919-17669c64-8514-4790-afb9-47f3cea465b5.png)
+![glassmo](https://user-images.githubusercontent.com/62949966/177624058-8de8edc4-959a-4749-8c14-1bd617a64521.png)
 
 </details><br>
 
 ## Welcome to the Css Grid challenge! 👋
 
-Drawing of a small Sushi table with CSS Grid, without using images, this delicious dish is developed with HTML tags and CSS styles.<br><br>
+Layout a weekly planner with Css Grid, Flebox and the Glassmorphism visual style.<br><br>
 
 ## Tools. 
 
